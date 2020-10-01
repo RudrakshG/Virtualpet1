@@ -37,7 +37,7 @@ dog.display();
   textSize(20);
   stroke(5);
   text("Note: Press UP_ARROW Kew To Feed Drago milk !",100,100);
-  text("Food remaining: "+ FoodS,200,200);
+  text("Food remaining: "+FoodS,200,200);
 }
 function readStock(data){
   FoodS=data.val();
